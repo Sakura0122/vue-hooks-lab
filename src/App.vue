@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Demo from './hooks/core/computedAsync/demo.vue'
+</script>
 
 <template>
-  <div>123</div>
+  <Demo />
 </template>
-
-<style scoped></style>
