@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Demo from './hooks/core/computedAsync/demo.vue'
+import Demo from './hooks/core/useTimeoutFn/demo.vue'
 </script>
 
 <template>

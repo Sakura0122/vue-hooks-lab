@@ -7,13 +7,17 @@
 ## 当前内容
 
 - `computedAsync`：基于 `watchEffect` 实现异步计算值，并处理过期异步结果。
+- `useTimeoutFn`：封装一次性延迟执行逻辑，支持开始、停止和组件卸载时自动清理。
 
 ## 目录结构
 
 ```txt
 src/hooks/
 └── core/
-    └── computedAsync/
+    ├── computedAsync/
+    │   ├── index.ts
+    │   └── demo.vue
+    └── useTimeoutFn/
         ├── index.ts
         └── demo.vue
 ```
